@@ -1,6 +1,6 @@
 # OrangeHRM-AutomationWeb
 
-**#Framework#**
+**#Setup#**
 
 Framework 	 : Robot framework
 
