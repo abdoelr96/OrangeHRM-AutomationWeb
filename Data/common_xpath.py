@@ -1,0 +1,21 @@
+#Login Page
+fieldUsernameLogin              = '//input[@placeholder="Username"]'
+fieldPasswordLogin              = '//input[@placeholder="Password"]'
+btnLogin                        = '//button[normalize-space()="Login"]'
+btnForgotPassword               = '//p[@class="oxd-text oxd-text--p orangehrm-login-forgot-header"]'
+wordingInvalidCredentials       = '//div[@class="oxd-alert-content oxd-alert-content--error"]'
+wordingRequiredUsername         = '//div[@class="orangehrm-login-slot-wrapper"]//div[1]//div[1]//span[1]'
+wordingRequiredPassword         = '//div[@class="orangehrm-login-form"]//div[2]//div[1]//span[1]'
+
+#Menu Admin
+menuSearch                      = '//input[@placeholder="Search"]'
+menuAdmin                       = '//body/div[@id="app"]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[1]'
+btnAdd                          = '//button[normalize-space()="Add"]'
+fieldUserRole                   = '//body/div[@id="app"]/div[@class="oxd-layout"]/div[@class="oxd-layout-container"]/div[@class="oxd-layout-context"]/div[@class="orangehrm-background-container"]/div[@class="orangehrm-card-container"]/form[@class="oxd-form"]/div[@class="oxd-form-row"]/div[@class="oxd-grid-2 orangehrm-full-width-grid"]/div[1]/div[1]/div[2]/div[1]/div[1]'
+fieldUserStatus                 = '//body/div[@id="app"]/div[@class="oxd-layout"]/div[@class="oxd-layout-container"]/div[@class="oxd-layout-context"]/div[@class="orangehrm-background-container"]/div[@class="orangehrm-card-container"]/form[@class="oxd-form"]/div[@class="oxd-form-row"]/div[@class="oxd-grid-2 orangehrm-full-width-grid"]/div[3]/div[1]/div[2]/div[1]/div[1]'
+fieldEmployeeName               = '//body/div[@id="app"]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/input[1]'
+fieldUsername                   = '//body/div[@id="app"]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[4]/div[1]/div[2]/input[1]'
+fieldPassword                   = '//body/div[@id="app"]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[2]/input[1]'
+fieldConfirmPassword            = '//body/div[@id="app"]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/div[1]/div[2]/div[1]/div[2]/input[1]'
+btnSave                         = '//button[normalize-space()="Save"]'
+btnCancel                       = '//button[normalize-space()="Cancel"]'
