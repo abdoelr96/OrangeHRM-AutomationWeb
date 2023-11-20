@@ -11,3 +11,9 @@ ${passwordInvalid}          admin1234
 ${LETTERS}                  qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM
 ${hintEmployeeName}         A
 ${selectedEmployeeName}     //div[@role='listbox']//div[1]
+
+#menu PIM
+${employeeFirstName}        Abdul
+${employeeLastName}         R
+${wordingNoRecord}          //span[normalize-space()='No Records Found']
+${wordingPersonalDetail}    //h6[normalize-space()='Personal Details']

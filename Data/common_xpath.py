@@ -1,6 +1,6 @@
 #Login Page
-fieldUsernameLogin              = '//input[@placeholder="Username"]'
-fieldPasswordLogin              = '//input[@placeholder="Password"]'
+fieldUsernameLogin              = '//input[@placeholder="username"]'
+fieldPasswordLogin              = '//input[@placeholder="password"]'
 btnLogin                        = '//button[normalize-space()="Login"]'
 btnForgotPassword               = '//p[@class="oxd-text oxd-text--p orangehrm-login-forgot-header"]'
 wordingInvalidCredentials       = '//div[@class="oxd-alert-content oxd-alert-content--error"]'
@@ -19,3 +19,16 @@ fieldPassword                   = '//body/div[@id="app"]/div[1]/div[2]/div[2]/di
 fieldConfirmPassword            = '//body/div[@id="app"]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/div[1]/div[2]/div[1]/div[2]/input[1]'
 btnSave                         = '//button[normalize-space()="Save"]'
 btnCancel                       = '//button[normalize-space()="Cancel"]'
+
+#Menu PIM
+menuPIM                         = '//body/div[@id="app"]/div[1]/div[1]/aside[1]/nav[1]/div[2]/ul[1]/li[2]/a[1]/span[1]'
+titleEmployeeInformation        = '//h5[normalize-space()="Employee Information"]'
+fieldEmployeeNamePIM            = '//div[@class="oxd-grid-4 orangehrm-full-width-grid"]//div[1]//div[1]//div[2]//div[1]//div[1]//input[1]'
+btnSearchEmployee               = '//button[normalize-space()="Search"]'
+btnResetSearchEmployee          = '//button[normalize-space()="Reset"]'
+btnAddEmployee                 = '//button[normalize-space()="Add"]'
+fieldFirstNameEmployee          = '//input[@placeholder="First name"]'
+fieldLastNameEmployee           = '//input[@placeholder="Last Name"]'
+btnSaveAddEmployee              = '//button[normalize-space()="Save"]'
+btnDeleteEmployee               = '//div[@class="orangehrm-container"]//button[1]'
+btnConfirmDelete                = '//button[normalize-space()="Yes, Delete"]'
